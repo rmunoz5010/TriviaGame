@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Trivia Game</title>
 </head>
 <body>
+    <!-- Main Container Class -->
+    <div class="container">
+        <!-- empty row with break to seperate Jumbotron from the top of the page -->
+        <div class="row">
+            <br>
+        </div>
+        <!-- Main Row with Jumbotron for Text -->
+        <div class="row text-center">
+            <div class="jumbotron">
+                <h1>
+                    Best Trivia Game Ever
+                </h1>
+                <!-- Call Opening here in case of Reset, we have the message again. -->
+                <div id="openMessage">
+                    <p><span id="opening">Welcome to the Best Trivia Game Ever. You will have 30 seconds to answer each question. The correct answer will be provided on screen after answering... Click the button below to begin!</span></p>
+                <button class="btn btn-default" type="submit">START</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
     
 </body>
 </html>
